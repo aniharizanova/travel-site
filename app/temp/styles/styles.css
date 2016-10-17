@@ -1340,11 +1340,11 @@ Instead edit gulp/templates/sprite */
 }
 
 .reveal-item {
-	opacity: 0;
-	-webkit-transition: all 1.5s ease-out;
-	transition: all 1.5s ease-out;
-	-webkit-transform: scale(1.15);
-	        transform: scale(1.15);
+  opacity: 0;
+  -webkit-transition: all 1.5s ease-out;
+  transition: all 1.5s ease-out;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }
 
 .reveal-item--is-visible {
@@ -1354,19 +1354,19 @@ Instead edit gulp/templates/sprite */
 }
 
 .modal {
-	position: fixed;
-	z-index: 5;
-	background-color: rgba(255, 255, 255, .94);
-	top:0;
-	bottom: 0;
-	left:0;
-	right:0;
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transform: scale(1.2);
-	        transform: scale(1.2);
-	-webkit-transition: all .3s ease-out;
-	transition: all .3s ease-out;
+  position: fixed;
+  z-index: 5;
+  background-color: rgba(255, 255, 255, .94);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all .3s ease-out;
+  transition: all .3s ease-out;
 }
 
 .modal--is-visible {
@@ -1379,9 +1379,9 @@ Instead edit gulp/templates/sprite */
 .modal__inner {
   position: absolute;
   width: 100%;
-  top:50%;
-  -webkit-transform:translateY(-50%);
-          transform:translateY(-50%);
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
 }
 
 .modal__description {
@@ -1409,10 +1409,10 @@ Instead edit gulp/templates/sprite */
 }
 
 .social-icons {
-	text-align: center;
+  text-align: center;
 }
 
-.social-icons__icon{
+.social-icons__icon {
   background-color: #d59541;
   display: inline-block;
   margin: 0 5px 5px 5px;
@@ -1433,7 +1433,7 @@ Instead edit gulp/templates/sprite */
   display: block;
   position: absolute;
   top: 50%;
-  left:50%;
+  left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
